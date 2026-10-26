@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "question": "Where is order ORD1001?",
+    "intent": "ORDER_STATUS",
+    "expected_tools": ["get_order", "get_delivery_status"],
+    "expected_policy_doc": null
+  },
+  {
+    "id": 2,
+    "question": "Why is my order delayed?",
+    "intent": "DELIVERY_DELAY",
+    "expected_tools": ["get_order", "get_delivery_status", "search_company_policy"],
+    "expected_policy_doc": "shipping_policy.pdf"
+  },
+  {
+    "id": 3,
+    "question": "Can customer CUST001 get a refund?",
+    "intent": "REFUND_REQUEST",
+    "expected_tools": ["get_customer", "get_order", "search_company_policy"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 4,
+    "question": "What is the refund policy?",
+    "intent": "GENERAL_INFORMATION",
+    "expected_tools": ["search_company_policy"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 5,
+    "question": "Has this customer complained before?",
+    "intent": "ACCOUNT_ISSUE",
+    "expected_tools": ["get_customer_tickets"],
+    "expected_policy_doc": null
+  },
+  {
+    "id": 6,
+    "question": "Customer CUST001's order is delayed by 7 days. Check whether they qualify for a refund.",
+    "intent": "REFUND_REQUEST",
+    "expected_tools": ["get_customer", "get_order", "evaluate_refund_eligibility", "search_company_policy"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 7,
+    "question": "Create a refund request for this customer.",
+    "intent": "REFUND_REQUEST",
+    "expected_tools": ["create_refund_request"],
+    "expected_policy_doc": null,
+    "requires_approval": true
+  },
+  {
+    "id": 8,
+    "question": "Escalate this issue to a human.",
+    "intent": "ESCALATION",
+    "expected_tools": ["escalate_ticket"],
+    "expected_policy_doc": "escalation_policy.pdf"
+  },
+  {
+    "id": 9,
+    "question": "Check customer CUST001's last three orders and tell me whether there are any unresolved issues.",
+    "intent": "ACCOUNT_ISSUE",
+    "expected_tools": ["get_customer", "get_customer_orders", "get_customer_tickets"],
+    "expected_policy_doc": null
+  },
+  {
+    "id": 10,
+    "question": "When can a customer request a refund for delayed delivery?",
+    "intent": "GENERAL_INFORMATION",
+    "expected_tools": ["search_company_policy"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 11,
+    "question": "Refund this ₹80,000 order ORD8801.",
+    "intent": "ESCALATION",
+    "expected_tools": ["get_order", "escalate_ticket"],
+    "expected_policy_doc": "escalation_policy.pdf",
+    "requires_escalation": true
+  },
+  {
+    "id": 12,
+    "question": "What is the company's refund policy for delayed shipments?",
+    "intent": "GENERAL_INFORMATION",
+    "expected_tools": ["search_company_policy"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 13,
+    "question": "Can ORD1002 be refunded for delay?",
+    "intent": "REFUND_REQUEST",
+    "expected_tools": ["get_order", "evaluate_refund_eligibility"],
+    "expected_policy_doc": "refund_policy.pdf"
+  },
+  {
+    "id": 14,
+    "question": "I want a replacement for a damaged item.",
+    "intent": "REPLACEMENT",
+    "expected_tools": ["search_company_policy"],
+    "expected_policy_doc": "replacement_policy.pdf"
+  },
+  {
+    "id": 15,
+    "question": "What is the warranty period?",
+    "intent": "WARRANTY",
+    "expected_tools": ["search_company_policy"],
+    "expected_policy_doc": "warranty_policy.pdf"
+  },
+  {
+    "id": 16,
+    "question": "Cancel order ORD1001.",
+    "intent": "CANCELLATION",
+    "expected_tools": ["get_order", "search_company_policy"],
+    "expected_policy_doc": "cancellation_policy.pdf"
+  },
+  {
+    "id": 17,
+    "question": "Payment for my order failed.",
+    "intent": "PAYMENT_ISSUE",
+    "expected_tools": ["get_order"],
+    "expected_policy_doc": null
+  },
+  {
+    "id": 18,
+    "question": "Find customer rahul@example.com",
+    "intent": "ACCOUNT_ISSUE",
+    "expected_tools": ["get_customer_by_email"],
+    "expected_policy_doc": null
+  },
+  {
+    "id": 19,
+    "question": "Customer asks for a manager on ticket TKT1023.",
+    "intent": "ESCALATION",
+    "expected_tools": ["escalate_ticket"],
+    "expected_policy_doc": "escalation_policy.pdf"
+  },
+  {
+    "id": 20,
+    "question": "Is a second refund allowed for the same order?",
+    "intent": "REFUND_REQUEST",
+    "expected_tools": ["search_company_policy", "get_business_rules"],
+    "expected_policy_doc": "refund_policy.pdf"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "tool_selection_accuracy": 100.0,
+  "policy_retrieval_accuracy": 92.9,
+  "grounded_responses": 100.0,
+  "action_recommendation": 50.0,
+  "approval_compliance": 100.0,
+  "counts": {
+    "tool_selection": "20/20",
+    "retrieval": "13/14",
+    "grounded": "14/14",
+    "action": "1/2",
+    "approval": "3/3"
+  },
+  "notes": [
+    "Tool selection accuracy counts whether expected tools are allowlisted for each of 20 eval questions (offline).",
+    "Retrieval and groundedness are measured with actual Chroma similarity search when embeddings load.",
+    "Action scores use the resolution engine on ORD1001 and ORD8801.",
+    "Approval compliance verifies process/approve tools are not on the agent and high-value refunds are blocked."
+  ]
+}

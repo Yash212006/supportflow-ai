@@ -1,0 +1,331 @@
+entity,code,related,status,amount,notes
+customer,CUST001,rahul@example.com,active,,Rahul Sharma
+customer,CUST002,siddharth.patel2@example.com,inactive,,Siddharth Patel
+customer,CUST003,arjun.iyer3@example.com,active,,Arjun Iyer
+customer,CUST004,ritika.patel4@example.com,active,,Ritika Patel
+customer,CUST005,diya.patel5@example.com,active,,Diya Patel
+customer,CUST006,priya.sharma6@example.com,active,,Priya Sharma
+customer,CUST007,meera.mehta7@example.com,active,,Meera Mehta
+customer,CUST008,diya.iyer8@example.com,active,,Diya Iyer
+customer,CUST009,yash.mehta9@example.com,active,,Yash Mehta
+customer,CUST010,nikhil.joshi10@example.com,active,,Nikhil Joshi
+customer,CUST011,rahul.verma11@example.com,active,,Rahul Verma
+customer,CUST012,yash.gupta12@example.com,active,,Yash Gupta
+customer,CUST013,vikram.iyer13@example.com,active,,Vikram Iyer
+customer,CUST014,rohan.patel14@example.com,active,,Rohan Patel
+customer,CUST015,neha.nair15@example.com,active,,Neha Nair
+customer,CUST016,tara.khan16@example.com,active,,Tara Khan
+customer,CUST017,ritika.das17@example.com,active,,Ritika Das
+customer,CUST018,dev.patel18@example.com,active,,Dev Patel
+customer,CUST019,siddharth.joshi19@example.com,active,,Siddharth Joshi
+customer,CUST020,sana.joshi20@example.com,active,,Sana Joshi
+customer,CUST021,amit.sharma21@example.com,active,,Amit Sharma
+customer,CUST022,manish.khan22@example.com,active,,Manish Khan
+customer,CUST023,meera.rao23@example.com,active,,Meera Rao
+customer,CUST024,arjun.das24@example.com,active,,Arjun Das
+customer,CUST025,sana.reddy25@example.com,active,,Sana Reddy
+customer,CUST026,karan.singh26@example.com,active,,Karan Singh
+customer,CUST027,naina.singh27@example.com,active,,Naina Singh
+customer,CUST028,siddharth.reddy28@example.com,active,,Siddharth Reddy
+customer,CUST029,meera.reddy29@example.com,active,,Meera Reddy
+customer,CUST030,arjun.malhotra30@example.com,active,,Arjun Malhotra
+customer,CUST031,diya.iyer31@example.com,active,,Diya Iyer
+customer,CUST032,manish.verma32@example.com,inactive,,Manish Verma
+customer,CUST033,priya.verma33@example.com,active,,Priya Verma
+customer,CUST034,arjun.patel34@example.com,active,,Arjun Patel
+customer,CUST035,aditya.malhotra35@example.com,active,,Aditya Malhotra
+customer,CUST036,karan.singh36@example.com,active,,Karan Singh
+customer,CUST037,siddharth.das37@example.com,active,,Siddharth Das
+customer,CUST038,vikram.iyer38@example.com,active,,Vikram Iyer
+customer,CUST039,diya.khan39@example.com,active,,Diya Khan
+customer,CUST040,pooja.malhotra40@example.com,active,,Pooja Malhotra
+customer,CUST041,sana.iyer41@example.com,active,,Sana Iyer
+customer,CUST042,vikram.mehta42@example.com,active,,Vikram Mehta
+customer,CUST043,manish.sharma43@example.com,active,,Manish Sharma
+customer,CUST044,vikram.singh44@example.com,active,,Vikram Singh
+customer,CUST045,naina.gupta45@example.com,active,,Naina Gupta
+customer,CUST046,dev.gupta46@example.com,active,,Dev Gupta
+customer,CUST047,nikhil.mehta47@example.com,active,,Nikhil Mehta
+customer,CUST048,diya.rao48@example.com,active,,Diya Rao
+customer,CUST049,naina.kapoor49@example.com,active,,Naina Kapoor
+customer,CUST050,diya.verma50@example.com,active,,Diya Verma
+order,ORD1001,1,DELAYED,2499.0,Aurora Wireless Headphones
+order,ORD1002,1,DELIVERED,1299.0,Cascade Water Bottle
+order,ORD1003,1,DELIVERED,899.0,Lumen Desk Lamp
+order,ORD8801,2,DELAYED,80000.0,PixelFrame 27 Monitor
+order,ORD5501,3,DELIVERED,1999.0,Lumen Desk Lamp
+order,ORD5502,3,CANCELLED,3499.0,Summit Running Shoes
+order,ORD1004,21,DELIVERED,5999.88,Harbor Backpack
+order,ORD1005,37,CANCELLED,24999.82,Cedar Office Chair
+order,ORD1006,11,SHIPPED,14999.96,Cascade Water Bottle
+order,ORD1007,29,DELAYED,2499.22,Summit Running Shoes
+order,ORD1008,15,PLACED,499.23,Cedar Office Chair
+order,ORD1009,16,SHIPPED,1999.13,Northwind Jacket
+order,ORD1010,13,PROCESSING,5999.42,Aurora Wireless Headphones
+order,ORD1011,26,DELIVERED,799.25,Lumen Desk Lamp
+order,ORD1012,18,DELIVERED,799.44,Nimbus Smartwatch
+order,ORD1013,49,DELAYED,24999.48,Northwind Jacket
+order,ORD1014,1,CANCELLED,24999.29,PixelFrame 27 Monitor
+order,ORD1015,14,CANCELLED,1999.06,Summit Running Shoes
+order,ORD1016,31,DELIVERED,1299.06,Summit Running Shoes
+order,ORD1017,5,DELIVERED,799.94,Summit Running Shoes
+order,ORD1018,6,OUT_FOR_DELIVERY,1999.32,Harbor Backpack
+order,ORD1019,17,OUT_FOR_DELIVERY,3999.46,Summit Running Shoes
+order,ORD1020,37,CANCELLED,2499.51,Harbor Backpack
+order,ORD1021,24,SHIPPED,1999.7,Nimbus Smartwatch
+order,ORD1022,9,SHIPPED,1999.16,Cascade Water Bottle
+order,ORD1023,14,DELIVERED,1999.49,PixelFrame 27 Monitor
+order,ORD1024,3,PLACED,3999.16,Cedar Office Chair
+order,ORD1025,1,PROCESSING,1299.55,Northwind Jacket
+order,ORD1026,9,PLACED,499.9,Nimbus Smartwatch
+order,ORD1027,23,DELAYED,14999.97,Lumen Desk Lamp
+order,ORD1028,27,PLACED,5999.78,PixelFrame 27 Monitor
+order,ORD1029,11,DELAYED,499.86,PixelFrame 27 Monitor
+order,ORD1030,15,SHIPPED,14999.33,Cedar Office Chair
+order,ORD1031,26,DELIVERED,5999.94,Aurora Wireless Headphones
+order,ORD1032,7,DELIVERED,5999.44,PixelFrame 27 Monitor
+order,ORD1033,3,DELIVERED,80000.69,Nimbus Smartwatch
+order,ORD1034,43,CANCELLED,799.72,Northwind Jacket
+order,ORD1035,21,OUT_FOR_DELIVERY,1299.19,Summit Running Shoes
+order,ORD1036,37,SHIPPED,499.3,Orbit Bluetooth Speaker
+order,ORD1037,29,DELIVERED,24999.79,PixelFrame 27 Monitor
+order,ORD1038,33,DELIVERED,799.82,Harbor Backpack
+order,ORD1039,13,PROCESSING,24999.61,Summit Running Shoes
+order,ORD1040,13,DELIVERED,14999.24,Harbor Backpack
+order,ORD1041,12,DELAYED,24999.05,Orbit Bluetooth Speaker
+order,ORD1042,43,DELIVERED,5999.95,Lumen Desk Lamp
+order,ORD1043,48,DELAYED,2499.84,PixelFrame 27 Monitor
+order,ORD1044,29,PLACED,3999.34,Harbor Backpack
+order,ORD1045,25,DELIVERED,799.41,Harbor Backpack
+order,ORD1046,27,OUT_FOR_DELIVERY,499.86,Cascade Water Bottle
+order,ORD1047,20,DELIVERED,14999.54,PixelFrame 27 Monitor
+order,ORD1048,28,DELIVERED,14999.72,Northwind Jacket
+order,ORD1049,38,DELIVERED,14999.14,Northwind Jacket
+order,ORD1050,21,SHIPPED,14999.28,Orbit Bluetooth Speaker
+order,ORD1051,2,DELIVERED,5999.22,Harbor Backpack
+order,ORD1052,2,DELIVERED,24999.67,Cascade Water Bottle
+order,ORD1053,11,DELIVERED,799.78,PixelFrame 27 Monitor
+order,ORD1054,37,DELIVERED,14999.94,Nimbus Smartwatch
+order,ORD1055,45,DELIVERED,799.8,Cascade Water Bottle
+order,ORD1056,5,DELIVERED,14999.82,Lumen Desk Lamp
+order,ORD1057,28,PROCESSING,3999.62,Summit Running Shoes
+order,ORD1058,18,SHIPPED,799.28,Summit Running Shoes
+order,ORD1059,40,DELIVERED,24999.85,PixelFrame 27 Monitor
+order,ORD1060,22,SHIPPED,3999.56,Northwind Jacket
+order,ORD1061,32,DELIVERED,24999.65,PixelFrame 27 Monitor
+order,ORD1062,15,OUT_FOR_DELIVERY,5999.47,Cascade Water Bottle
+order,ORD1063,45,DELIVERED,2499.12,Harbor Backpack
+order,ORD1064,14,DELIVERED,1999.6,Cascade Water Bottle
+order,ORD1065,12,SHIPPED,1299.27,Lumen Desk Lamp
+order,ORD1066,41,DELAYED,499.57,Lumen Desk Lamp
+order,ORD1067,4,SHIPPED,799.82,Summit Running Shoes
+order,ORD1068,41,DELIVERED,3999.09,Summit Running Shoes
+order,ORD1069,39,DELAYED,1999.38,PixelFrame 27 Monitor
+order,ORD1070,37,DELIVERED,799.95,Lumen Desk Lamp
+order,ORD1071,16,PROCESSING,499.41,Harbor Backpack
+order,ORD1072,19,DELIVERED,24999.07,Northwind Jacket
+order,ORD1073,8,DELIVERED,3999.83,Summit Running Shoes
+order,ORD1074,48,DELAYED,24999.12,PixelFrame 27 Monitor
+order,ORD1075,33,DELIVERED,499.89,Aurora Wireless Headphones
+order,ORD1076,6,SHIPPED,500.0,Lumen Desk Lamp
+order,ORD1077,31,DELIVERED,3999.18,Nimbus Smartwatch
+order,ORD1078,31,OUT_FOR_DELIVERY,799.86,PixelFrame 27 Monitor
+order,ORD1079,43,CANCELLED,1999.04,Cascade Water Bottle
+order,ORD1080,8,CANCELLED,1999.82,Northwind Jacket
+order,ORD1081,4,SHIPPED,24999.63,Cedar Office Chair
+order,ORD1082,9,CANCELLED,24999.12,Cedar Office Chair
+order,ORD1083,1,DELIVERED,799.46,Cedar Office Chair
+order,ORD1084,46,SHIPPED,24999.24,Summit Running Shoes
+order,ORD1085,33,DELIVERED,799.28,Aurora Wireless Headphones
+order,ORD1086,19,DELIVERED,24999.87,Cedar Office Chair
+order,ORD1087,49,DELIVERED,5999.87,Harbor Backpack
+order,ORD1088,50,OUT_FOR_DELIVERY,24999.71,Orbit Bluetooth Speaker
+order,ORD1089,3,PROCESSING,5999.87,Aurora Wireless Headphones
+order,ORD1090,47,PROCESSING,1299.07,Nimbus Smartwatch
+order,ORD1091,22,DELAYED,14999.95,Summit Running Shoes
+order,ORD1092,5,SHIPPED,4000.0,Nimbus Smartwatch
+order,ORD1093,29,PROCESSING,499.05,Cascade Water Bottle
+order,ORD1094,28,PROCESSING,1299.17,Summit Running Shoes
+order,ORD1095,44,SHIPPED,1299.23,Aurora Wireless Headphones
+order,ORD1096,30,CANCELLED,1299.07,Northwind Jacket
+order,ORD1097,45,SHIPPED,2500.0,Northwind Jacket
+order,ORD1098,37,OUT_FOR_DELIVERY,3999.02,Summit Running Shoes
+order,ORD1099,44,DELIVERED,24999.83,Harbor Backpack
+order,ORD1100,41,SHIPPED,1299.63,Aurora Wireless Headphones
+order,ORD1101,38,OUT_FOR_DELIVERY,3999.33,Lumen Desk Lamp
+order,ORD1102,35,DELAYED,1999.91,PixelFrame 27 Monitor
+order,ORD1103,48,DELAYED,24999.96,Cedar Office Chair
+order,ORD1104,24,PROCESSING,3999.54,Summit Running Shoes
+order,ORD1105,25,DELAYED,799.67,Summit Running Shoes
+order,ORD1106,15,DELIVERED,24999.91,Aurora Wireless Headphones
+order,ORD1107,3,SHIPPED,799.23,Cascade Water Bottle
+order,ORD1108,43,CANCELLED,1999.42,Orbit Bluetooth Speaker
+order,ORD1109,40,OUT_FOR_DELIVERY,499.69,Harbor Backpack
+order,ORD1110,24,PROCESSING,1999.9,PixelFrame 27 Monitor
+order,ORD1111,13,CANCELLED,24999.09,Aurora Wireless Headphones
+order,ORD1112,22,SHIPPED,2499.07,Harbor Backpack
+order,ORD1113,22,DELIVERED,499.28,Lumen Desk Lamp
+order,ORD1114,8,DELIVERED,499.36,Aurora Wireless Headphones
+order,ORD1115,12,SHIPPED,14999.53,Cascade Water Bottle
+order,ORD1116,33,DELIVERED,2499.95,Aurora Wireless Headphones
+order,ORD1117,31,DELAYED,799.49,Summit Running Shoes
+order,ORD1118,10,PLACED,1999.71,Orbit Bluetooth Speaker
+order,ORD1119,33,DELIVERED,799.85,Harbor Backpack
+order,ORD1120,27,OUT_FOR_DELIVERY,14999.73,PixelFrame 27 Monitor
+order,ORD1121,24,CANCELLED,24999.07,Nimbus Smartwatch
+order,ORD1122,48,DELIVERED,1999.06,Northwind Jacket
+order,ORD1123,23,DELAYED,14999.87,Cascade Water Bottle
+order,ORD1124,7,DELIVERED,24999.22,Nimbus Smartwatch
+order,ORD1125,49,SHIPPED,14999.85,Aurora Wireless Headphones
+order,ORD1126,12,SHIPPED,5999.35,Nimbus Smartwatch
+order,ORD1127,10,DELIVERED,799.75,Cascade Water Bottle
+order,ORD1128,11,OUT_FOR_DELIVERY,799.88,Nimbus Smartwatch
+order,ORD1129,18,DELIVERED,24999.41,Northwind Jacket
+order,ORD1130,8,SHIPPED,24999.53,Northwind Jacket
+order,ORD1131,39,PLACED,2499.77,Nimbus Smartwatch
+order,ORD1132,1,DELIVERED,1299.38,Nimbus Smartwatch
+order,ORD1133,26,DELAYED,499.46,Summit Running Shoes
+order,ORD1134,26,DELIVERED,799.41,Cascade Water Bottle
+order,ORD1135,6,DELIVERED,14999.59,Cascade Water Bottle
+order,ORD1136,15,OUT_FOR_DELIVERY,1999.63,Cascade Water Bottle
+order,ORD1137,47,CANCELLED,1299.24,Lumen Desk Lamp
+order,ORD1138,39,PROCESSING,799.18,Summit Running Shoes
+order,ORD1139,42,DELIVERED,5999.15,PixelFrame 27 Monitor
+order,ORD1140,38,PLACED,3999.46,PixelFrame 27 Monitor
+order,ORD1141,5,DELIVERED,799.62,Orbit Bluetooth Speaker
+order,ORD1142,37,DELIVERED,24999.5,Nimbus Smartwatch
+order,ORD1143,33,DELIVERED,24999.99,PixelFrame 27 Monitor
+order,ORD1144,25,OUT_FOR_DELIVERY,499.79,Nimbus Smartwatch
+order,ORD1145,36,DELIVERED,1299.33,Northwind Jacket
+order,ORD1146,9,DELIVERED,3999.56,Northwind Jacket
+order,ORD1147,33,OUT_FOR_DELIVERY,1299.95,Harbor Backpack
+ticket,TKT1023,1,OPEN,,Order not arrived — refund requested
+ticket,TKT1024,1,RESOLVED,,Damaged packaging
+ticket,TKT2100,2,ESCALATED,,High-value delayed monitor
+ticket,TKT1025,1,OPEN,,Duplicate follow-up on delayed order
+ticket,TKT1100,9,ESCALATED,,Refund for ORD1082
+ticket,TKT1101,34,RESOLVED,,Delivery inquiry
+ticket,TKT1102,39,CLOSED,,Cancellation for ORD1069
+ticket,TKT1103,11,WAITING_FOR_CUSTOMER,,Account for ORD1006
+ticket,TKT1104,40,RESOLVED,,Replacement for ORD1109
+ticket,TKT1105,31,RESOLVED,,Payment for ORD1077
+ticket,TKT1106,50,RESOLVED,,Product for ORD1088
+ticket,TKT1107,39,OPEN,,Warranty inquiry
+ticket,TKT1108,7,OPEN,,Warranty for ORD1032
+ticket,TKT1109,33,OPEN,,Account inquiry
+ticket,TKT1110,23,WAITING_FOR_CUSTOMER,,Delivery for ORD1123
+ticket,TKT1111,6,CLOSED,,Payment for ORD1018
+ticket,TKT1112,10,CLOSED,,Warranty inquiry
+ticket,TKT1113,49,CLOSED,,Delivery for ORD1087
+ticket,TKT1114,10,RESOLVED,,Refund for ORD1127
+ticket,TKT1115,16,OPEN,,Refund for ORD1071
+ticket,TKT1116,2,RESOLVED,,Replacement for ORD1052
+ticket,TKT1117,23,RESOLVED,,Cancellation for ORD1123
+ticket,TKT1118,5,CLOSED,,Account for ORD1017
+ticket,TKT1119,24,RESOLVED,,Payment for ORD1021
+ticket,TKT1120,41,OPEN,,Payment inquiry
+ticket,TKT1121,42,RESOLVED,,General for ORD1139
+ticket,TKT1122,50,IN_PROGRESS,,Warranty for ORD1088
+ticket,TKT1123,21,CLOSED,,Account for ORD1050
+ticket,TKT1124,49,CLOSED,,Payment for ORD1087
+ticket,TKT1125,18,ESCALATED,,Payment inquiry
+ticket,TKT1126,25,RESOLVED,,General for ORD1045
+ticket,TKT1127,18,OPEN,,Account for ORD1129
+ticket,TKT1128,35,IN_PROGRESS,,Refund for ORD1102
+ticket,TKT1129,46,ESCALATED,,Payment for ORD1084
+ticket,TKT1130,40,OPEN,,Delivery for ORD1109
+ticket,TKT1131,48,CLOSED,,Cancellation for ORD1043
+ticket,TKT1132,9,WAITING_FOR_CUSTOMER,,Payment inquiry
+ticket,TKT1133,10,ESCALATED,,Payment for ORD1127
+ticket,TKT1134,24,CLOSED,,Replacement for ORD1110
+ticket,TKT1135,34,CLOSED,,Account inquiry
+ticket,TKT1136,46,IN_PROGRESS,,General for ORD1084
+ticket,TKT1137,12,CLOSED,,Refund for ORD1126
+ticket,TKT1138,43,RESOLVED,,Product for ORD1034
+ticket,TKT1139,46,ESCALATED,,Payment for ORD1084
+ticket,TKT1140,9,WAITING_FOR_CUSTOMER,,Delivery for ORD1146
+ticket,TKT1141,36,OPEN,,Refund inquiry
+ticket,TKT1142,31,OPEN,,Refund for ORD1117
+ticket,TKT1143,30,CLOSED,,Cancellation for ORD1096
+ticket,TKT1144,12,ESCALATED,,Account for ORD1065
+ticket,TKT1145,34,IN_PROGRESS,,Cancellation inquiry
+ticket,TKT1146,15,CLOSED,,Warranty for ORD1136
+ticket,TKT1147,36,OPEN,,Product for ORD1145
+ticket,TKT1148,38,CLOSED,,Payment for ORD1140
+ticket,TKT1149,2,RESOLVED,,Warranty inquiry
+ticket,TKT1150,41,IN_PROGRESS,,Product inquiry
+ticket,TKT1151,44,RESOLVED,,Refund for ORD1099
+ticket,TKT1152,30,CLOSED,,Payment for ORD1096
+ticket,TKT1153,23,RESOLVED,,Payment for ORD1027
+ticket,TKT1154,8,OPEN,,Cancellation for ORD1080
+ticket,TKT1155,40,CLOSED,,Payment for ORD1059
+ticket,TKT1156,11,CLOSED,,General for ORD1128
+ticket,TKT1157,26,RESOLVED,,Replacement for ORD1031
+ticket,TKT1158,39,IN_PROGRESS,,General for ORD1138
+ticket,TKT1159,9,WAITING_FOR_CUSTOMER,,Account for ORD1082
+ticket,TKT1160,13,WAITING_FOR_CUSTOMER,,Refund for ORD1040
+ticket,TKT1161,40,CLOSED,,Cancellation for ORD1059
+ticket,TKT1162,22,IN_PROGRESS,,Cancellation for ORD1112
+ticket,TKT1163,3,RESOLVED,,Payment inquiry
+ticket,TKT1164,33,OPEN,,Payment inquiry
+ticket,TKT1165,20,ESCALATED,,Warranty for ORD1047
+ticket,TKT1166,8,RESOLVED,,Delivery for ORD1114
+ticket,TKT1167,50,RESOLVED,,Delivery for ORD1088
+ticket,TKT1168,40,CLOSED,,Cancellation for ORD1109
+ticket,TKT1169,45,ESCALATED,,Delivery inquiry
+ticket,TKT1170,14,CLOSED,,General for ORD1064
+ticket,TKT1171,9,RESOLVED,,General for ORD1082
+ticket,TKT1172,35,RESOLVED,,Warranty for ORD1102
+ticket,TKT1173,36,RESOLVED,,Warranty for ORD1145
+ticket,TKT1174,31,OPEN,,Warranty for ORD1078
+ticket,TKT1175,26,OPEN,,Warranty for ORD1031
+ticket,TKT1176,29,IN_PROGRESS,,Replacement for ORD1093
+ticket,TKT1177,45,IN_PROGRESS,,Replacement for ORD1055
+ticket,TKT1178,41,WAITING_FOR_CUSTOMER,,Account for ORD1066
+ticket,TKT1179,9,CLOSED,,Product inquiry
+ticket,TKT1180,31,IN_PROGRESS,,Warranty for ORD1077
+ticket,TKT1181,6,RESOLVED,,Product for ORD1018
+ticket,TKT1182,12,CLOSED,,Delivery for ORD1065
+ticket,TKT1183,48,OPEN,,Delivery for ORD1103
+ticket,TKT1184,22,CLOSED,,Cancellation for ORD1113
+ticket,TKT1185,8,RESOLVED,,Warranty for ORD1130
+ticket,TKT1186,19,RESOLVED,,Cancellation for ORD1072
+ticket,TKT1187,28,RESOLVED,,Account for ORD1048
+ticket,TKT1188,21,WAITING_FOR_CUSTOMER,,Warranty for ORD1004
+ticket,TKT1189,22,RESOLVED,,Warranty for ORD1060
+ticket,TKT1190,8,RESOLVED,,Account for ORD1080
+ticket,TKT1191,50,WAITING_FOR_CUSTOMER,,Warranty for ORD1088
+ticket,TKT1192,31,RESOLVED,,Account for ORD1078
+ticket,TKT1193,43,RESOLVED,,Refund for ORD1042
+ticket,TKT1194,37,CLOSED,,Product inquiry
+ticket,TKT1195,11,RESOLVED,,Refund for ORD1128
+refund,RFD2001,2,APPROVED,1299.0,Processed historical refund from seed data.
+refund,RFD2002,3,PROCESSED,899.0,Processed historical refund from seed data.
+refund,RFD2003,5,APPROVED,1999.0,Processed historical refund from seed data.
+refund,RFD2004,6,PROCESSED,3499.0,Processed historical refund from seed data.
+refund,RFD2005,7,APPROVED,5999.88,Processed historical refund from seed data.
+refund,RFD2006,8,APPROVED,24999.82,Processed historical refund from seed data.
+refund,RFD2007,14,PROCESSED,799.25,Processed historical refund from seed data.
+refund,RFD2008,15,APPROVED,799.44,Processed historical refund from seed data.
+refund,RFD2009,17,REJECTED,24999.29,Processed historical refund from seed data.
+refund,RFD2010,18,PROCESSED,1999.06,Processed historical refund from seed data.
+refund,RFD2011,19,APPROVED,1299.06,Processed historical refund from seed data.
+refund,RFD2012,20,REJECTED,799.94,Processed historical refund from seed data.
+refund,RFD2013,23,PROCESSED,2499.51,Processed historical refund from seed data.
+refund,RFD2014,26,PROCESSED,1999.49,Processed historical refund from seed data.
+refund,RFD2015,34,PROCESSED,5999.94,Processed historical refund from seed data.
+refund,RFD2016,35,PROCESSED,5999.44,Processed historical refund from seed data.
+refund,RFD2017,36,APPROVED,80000.69,Processed historical refund from seed data.
+refund,RFD2018,37,REJECTED,799.72,Processed historical refund from seed data.
+refund,RFD2019,40,PROCESSED,24999.79,Processed historical refund from seed data.
+refund,RFD2020,41,PROCESSED,799.82,Processed historical refund from seed data.
+refund,RFD2021,121,PROCESSED,1999.0,Partial goodwill refund.
+refund,RFD2022,74,REJECTED,499.41,Partial goodwill refund.
+refund,RFD2023,47,PROCESSED,1999.0,Partial goodwill refund.
+refund,RFD2024,108,REJECTED,799.67,Partial goodwill refund.
+refund,RFD2025,98,REJECTED,1299.23,Partial goodwill refund.
+refund,RFD2026,97,REJECTED,1299.17,Partial goodwill refund.
+refund,RFD2027,21,PENDING_APPROVAL,1999.0,Partial goodwill refund.
+refund,RFD2028,139,PROCESSED,1999.0,Partial goodwill refund.
+refund,RFD2029,90,PROCESSED,1999.0,Partial goodwill refund.
+refund,RFD2030,46,PENDING_APPROVAL,1999.0,Partial goodwill refund.

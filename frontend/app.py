@@ -1,4 +1,8 @@
+import os
+import socket
 import sys
+import threading
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -6,6 +10,34 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+
+# ── Streamlit Cloud secrets → environment variables ──────────────────
+try:
+    for _key in ("GROQ_API_KEY", "GROQ_MODEL", "DATABASE_URL",
+                 "CHROMA_PERSIST_DIRECTORY", "EMBEDDING_MODEL"):
+        if _key in st.secrets and _key not in os.environ:
+            os.environ[_key] = str(st.secrets[_key])
+except Exception:
+    pass
+
+
+# ── Auto-start FastAPI backend (for Streamlit Cloud) ─────────────────
+def _port_open(port: int) -> bool:
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex(("127.0.0.1", port)) == 0
+
+
+_BACKEND_STARTING = False
+if not _port_open(8000):
+    _BACKEND_STARTING = True
+
+    def _run_backend():
+        import uvicorn
+        from backend.main import create_app
+        _app = create_app(run_bootstrap=True)
+        uvicorn.run(_app, host="127.0.0.1", port=8000, log_level="info")
+
+    threading.Thread(target=_run_backend, daemon=True).start()
 
 from frontend.api_client import post
 from frontend.components.layout import inject_css, sidebar_brand
@@ -23,6 +55,17 @@ from frontend.views import (
 
 st.set_page_config(page_title="SupportFlow AI", layout="wide")
 inject_css()
+
+# Wait for backend if it was just started
+if _BACKEND_STARTING:
+    with st.spinner("⚙️ Starting backend (first launch downloads models — may take a few minutes)..."):
+        for _ in range(180):
+            if _port_open(8000):
+                break
+            time.sleep(1)
+        if not _port_open(8000):
+            st.error("Backend failed to start. Please check the logs.")
+            st.stop()
 
 # --- Clean Enterprise Navigation Map ---
 PAGES = {

@@ -1,3 +1,13 @@
+---
+title: SupportFlow AI
+emoji: 🤖
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
 # SupportFlow AI
 
 **Investigate. Reason. Recommend. Act — with Human Approval.**

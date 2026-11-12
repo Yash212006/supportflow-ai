@@ -1,0 +1,4 @@
+# keep the vendored wheel
+!paypal-2.29-py3-none-any.whl
+!PAYPAL_SDK_LICENSE
+!README.md

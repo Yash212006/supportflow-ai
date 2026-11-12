@@ -1,5 +1,12 @@
 # SupportFlow AI
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render)](https://supportflow-web-w33e.onrender.com)
+[![API Status](https://img.shields.io/badge/API%20Health-200%20OK-brightgreen?style=for-the-badge)](https://supportflow-api-gqq8.onrender.com/health)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+> 🌐 **Live Application:** [https://supportflow-web-w33e.onrender.com](https://supportflow-web-w33e.onrender.com)  
+> 🩺 **Live Backend API Health:** [https://supportflow-api-gqq8.onrender.com/health](https://supportflow-api-gqq8.onrender.com/health)
+
 Autonomous customer support and financial operations for online businesses, built for the PayPal AI Hackathon.
 
 Customers chat with an AI support team that looks up their real orders, payments and shipments, answers from a
